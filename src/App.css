@@ -1,0 +1,86 @@
+
+.toppart{
+  justify-content:center;
+  display:flex;
+  padding: 20px;
+}
+.input{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+h2{
+  text-align:center;
+}
+input[type=text]{
+  padding: 5px;
+  border-radius:10px;
+}
+p{
+  text-align:center;
+}
+.comic-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #e07a5f;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-top:5px;
+}
+
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+.task{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.item{
+  display: flex;
+  padding:10px;
+  margin:5px;
+  border-radius:12px;
+  background-color:#e07a5f;
+  width: 250px;
+  justify-content:space-between;
+  align-items:center;
+  border: 1px solid black;
+}
+button{
+  padding: 5px 10px;
+  font-size:10px;
+  border-radius:6px;
+  background-color:#81b29a;
+  color: white;
+  border: 1px solid black;
+  cursor:pointer;
+}
+p{
+  text-align:left;
+}
+span{
+  font-size:12px;
+}
+.date{
+  display:flex;
+  width:160px;
+  justify-content:space-between;
+  margin-top:5px;
+}
+.controls button{ 
+  margin-left:2px;
+}
